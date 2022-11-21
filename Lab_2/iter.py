@@ -46,7 +46,7 @@ def main():
     """Separates code blocks."""
     s = Iterator("D:\Lab Python\dataset_2copy.csv", "rose")
 
-    print(next(s))
+    print(type(next(s)))
     print(next(s))
     print(next(s))
 
